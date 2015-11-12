@@ -1,0 +1,23 @@
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\CalculatorClient2.exe.config
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\CalculatorClient2.exe
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\CalculatorClient2.pdb
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\Eneter.Messaging.Framework.dll
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\Eneter.Messaging.Framework.pdb
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\bin\Debug\Eneter.Messaging.Framework.xml
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.csprojResolveAssemblyReference.cache
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.Form1.resources
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.Properties.Resources.resources
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.csproj.GenerateResource.Cache
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.exe
+C:\Users\samara\Desktop\Nova pasta\RpcCalculatorJavaService\CalculatorClient2\obj\Debug\CalculatorClient2.pdb
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\bin\Debug\CalculatorClient2.exe.config
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.exe
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.pdb
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\bin\Debug\CalculatorClient2.exe
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\bin\Debug\CalculatorClient2.pdb
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\bin\Debug\Eneter.Messaging.Framework.pdb
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\bin\Debug\Eneter.Messaging.Framework.xml
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.csprojResolveAssemblyReference.cache
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.Form1.resources
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.Properties.Resources.resources
+C:\Users\JMMCC\Desktop\Tram\CalculatorClient2\obj\Debug\CalculatorClient2.csproj.GenerateResource.Cache
