@@ -28,6 +28,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         initComponents();
         this.aLeiloeiro = aLeiloeiro;
         this.aServiceL = aServiceL;
+        tfIP.setText("127.0.0.1");
+        tfPorta.setText("38445");
         jButton2.setEnabled(false);
         jButton3.setEnabled(false);
     }
@@ -50,6 +52,12 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        tfIP.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfIPActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("IP");
 
@@ -213,6 +221,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         });
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void tfIPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfIPActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfIPActionPerformed
 
     /**
      * @param args the command line arguments
