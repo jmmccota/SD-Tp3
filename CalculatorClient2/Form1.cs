@@ -39,22 +39,29 @@ namespace CalculatorClient2
 
         private void SumButton_Click(object sender, EventArgs e)
         {
-            int a =Convert.ToInt16(txtCod.Text);
+            int a = Convert.ToInt16(txtCod.Text);
             double b = double.Parse(txtValor.Text);
             String c = txtCliente.Text;
 
-            bool r = myRpcClient.Proxy.MakeGambling(a,b,c); //usa metodo pra fazer lance do servidor,que retorna booleano pta indicar se foi aceito ou nao
-            if (r) { 
-                ResultLabel.Text = "Sucesso. Lance Aceito"; 
-            } else {
-                ResultLabel.Text = "Falha. Lance Inválido\n(valor menor ou fim do\ntempo do produto)"; 
+            bool r = myRpcClient.Proxy.MakeGambling(a, b, c); //usa metodo pra fazer lance do servidor,que retorna booleano pta indicar se foi aceito ou nao
+            if (r)
+            {
+                ResultLabel.Text = "Sucesso. Lance Aceito";
             }
-            
+            else
+            {
+                ResultLabel.Text = "Falha. Lance Inválido\n(valor menor ou fim do\ntempo do produto)";
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)//atualiza o grid com os produtos, pegando os dados atuais para exibir sobrescrevendo os antigos
         {
-            label5.Text = ""+DateTime.Now.Millisecond;
+            atualiza();
+        }
+        void atualiza()
+        {
+            label5.Text = "" + DateTime.Now.Millisecond;
             String r = myRpcClient.Proxy.GetArrayProduct();
             String[] vetProd = r.Split(new string[] { "%" }, StringSplitOptions.None); //Os produtos estao concatenados por %
             txtResultado.Text = "";
@@ -64,7 +71,7 @@ namespace CalculatorClient2
                 String[] dadosProd = vetProd[i].Split(new string[] { "#" }, StringSplitOptions.None);//os dados de cada um esta concatenado por #
                 if (dadosProd.Length > 2)//so pra caso esteja vazio
                 {
-                    txtResultado.Text = txtResultado.Text + "\nCodigo:" + dadosProd[0] + "\nNome:" + dadosProd[1] + "\nPreco:" + dadosProd[2] + "\nTermino:" + (double.Parse(dadosProd[3]) * 0.001) + "\nCliente:" + dadosProd[4] +"\n"+dadosProd[5]+ "\n---------------------------------------------";
+                    txtResultado.Text = txtResultado.Text + "\nCodigo:" + dadosProd[0] + "\nNome:" + dadosProd[1] + "\nPreco:" + dadosProd[2] + "\nTermino:" + (double.Parse(dadosProd[3]) * 0.001) + "\nCliente:" + dadosProd[4] + "\n" + dadosProd[5] + "\n---------------------------------------------";
 
                 }
             }

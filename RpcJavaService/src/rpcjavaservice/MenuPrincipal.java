@@ -12,6 +12,7 @@ import eneter.messaging.messagingsystems.messagingsystembase.IMessagingSystemFac
 import eneter.messaging.messagingsystems.tcpmessagingsystem.TcpMessagingSystemFactory;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 
 /**
  *
@@ -184,6 +185,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 CadastroProduto cp = new CadastroProduto(aLeiloeiro);
                 cp.setVisible(true);
                 cp.setLocationRelativeTo(null);
+                cp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -218,6 +220,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 ListarProdutos mp = new ListarProdutos(aLeiloeiro);
                 mp.setVisible(true);
                 mp.setLocationRelativeTo(null);
+                mp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -259,6 +262,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 MenuPrincipal mp = new MenuPrincipal(null,null);
                 mp.setVisible(true);
                 mp.setLocationRelativeTo(null);
+                mp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
     }
