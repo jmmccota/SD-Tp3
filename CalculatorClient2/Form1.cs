@@ -62,7 +62,16 @@ namespace CalculatorClient2
         void atualiza()
         {
             label5.Text = "" + DateTime.Now.Millisecond;
-            String r = myRpcClient.Proxy.GetArrayProduct();
+            String r = "";
+            try
+            {
+                r = myRpcClient.Proxy.GetArrayProduct();
+            }
+            catch (Exception)
+            {
+                r = "Lista Atualizada";
+            }
+
             String[] vetProd = r.Split(new string[] { "%" }, StringSplitOptions.None); //Os produtos estao concatenados por %
             txtResultado.Text = "";
             for (int i = 0; i < vetProd.Length; i++)
